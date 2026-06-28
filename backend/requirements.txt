@@ -1,0 +1,4 @@
+fastapi==0.138.0
+pydantic==2.13.4
+joblib==1.5.3
+pandas==3.0.3
