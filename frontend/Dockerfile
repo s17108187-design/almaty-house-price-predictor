@@ -1,5 +1,5 @@
 FROM python:3.14-slim
 WORKDIR /app
-COPY . .
+COPY frontend.py .
 RUN pip install -r requirements.txt
 CMD ["streamlit","run","frontend/frontend.py","0.0.0.0","8501"]

@@ -1,4 +1,4 @@
-FROM ubuntu:latest
-LABEL authors="Sasny"
+FROM python:3.14-slim
+WORKDIR /app
+COPY predictor.py .
 
-ENTRYPOINT ["top", "-b"]
